@@ -1,0 +1,21 @@
+{
+    "name": "bedri/color-ascii-table",
+    "description": "Colored ASCII table generator",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Jaroslav Bedri",
+            "email": "sidha2@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.1.0",
+        "kevinlebrun/colors.php": "1.0.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "ColoredTable\\": "src/"
+        }
+    }
+}
