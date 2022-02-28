@@ -1,3 +1,5 @@
+# color-ascii-table
+Simple ASCII colored table
 # Colored ASCII Table
 
 ![Screenshot_1](https://user-images.githubusercontent.com/24494815/155949986-779973b0-65a9-4d2a-93dd-40985511fbbf.png)
