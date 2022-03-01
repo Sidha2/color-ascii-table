@@ -205,14 +205,14 @@ class Table {
 
             if (($key == 0) && ($headerline != null))
             {
-                $table = $header ."\n" .$table ."\n" .$wrapper;
+                $table = $header .PHP_EOL .$table .PHP_EOL .$wrapper;
             }
             else
             {
-                $table .= ($key == count($words) - 1 ? '' : "\n" .$secWrapper);
+                $table .= ($key == count($words) - 1 ? '' : PHP_EOL .$secWrapper);
             }
 
-            $table .= "\n";
+            $table .= PHP_EOL;
 
         }
 
